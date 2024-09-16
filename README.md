@@ -1,12 +1,12 @@
 # AREA-CALCULATOR-
-AREA CALCULATOR FOR RECTANGLES IN MATHEMATICS
+AREA CALCULATOR FOR RECTANGLES OR SQUARES IN MATHEMATICS
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rectangle Area Calculator</title>
+    <title>Rectangle or Square Area Calculator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,7 +41,7 @@ AREA CALCULATOR FOR RECTANGLES IN MATHEMATICS
 </head>
 <body>
 
-<h1>Rectangle Area Calculator</h1>
+<h1>Rectangle or Square Area Calculator</h1>
 <label for="lengthInput">Enter length: </label>
 <input type="number" id="lengthInput" placeholder="Enter length">
 <br>
@@ -66,7 +66,7 @@ AREA CALCULATOR FOR RECTANGLES IN MATHEMATICS
         }
 
         var area = length * width;
-        resultElement.innerText = "The area of the rectangle is: " + area;
+        resultElement.innerText = "The area of the rectangle or square is: " + area;
     }
 </script>
 
